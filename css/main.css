@@ -4,7 +4,7 @@
 body {
   font-size: 14px;
 }
-.v2_0 {
+.main {
   width: 100%;
   height: 1200px;
   background: rgba(255,255,255,1);
@@ -13,23 +13,11 @@ body {
   top: 0px;
   left: 0px;
 }
-.v3_4 {
-  width: 100%;
-  height: 828px;
-  background: url("../images/v3_4.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 365px;
-  left: 368px;
-  overflow: hidden;
-}
-.v16_3 {
+
+.soundcloud1 {
   width: 615px;
   height: 244px;
-  background: url("../images/v16_3.png");
+  background: url("../images/soundcloud1.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -39,10 +27,10 @@ body {
   left: 998px;
   overflow: hidden;
 }
-.v16_2 {
+.soundcloud2 {
   width: 612px;
   height: 244px;
-  background: url("../images/v16_2.png");
+  background: url("../images/soundcloud2.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -52,7 +40,7 @@ body {
   left: 368px;
   overflow: hidden;
 }
-.v4_1 {
+.ruzelzakirov {
   width: 855px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -75,10 +63,10 @@ body {
   border: 3px solid rgba(0,0,0,1);
   overflow: hidden;
 }
-.v5_9 {
+.facebook {
   width: 45px;
   height: 45px;
-  background: url("../images/v5_9.png");
+  background: url("../images/facebook.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -88,10 +76,10 @@ body {
   left: 1017px;
   overflow: hidden;
 }
-.v15_0 {
+.instagram{
   width: 45px;
   height: 45px;
-  background: url("../images/v15_0.png");
+  background: url("../images/instagram.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -101,10 +89,10 @@ body {
   left: 915px;
   overflow: hidden;
 }
-.v31_1 {
+.youtube {
   width: 45px;
   height: 45px;
-  background: url("../images/v31_1.png");
+  background: url("../images/youtube.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -114,10 +102,10 @@ body {
   left: 813px;
   overflow: hidden;
 }
-.v31_0 {
+.bandcamp {
   width: 45px;
   height: 45px;
-  background: url("../images/v31_0.png");
+  background: url("../images/bandcamp.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -127,10 +115,10 @@ body {
   left: 704px;
   overflow: hidden;
 }
-.v17_2 {
+.soundcloudicon {
   width: 59px;
   height: 54px;
-  background: url("../images/v17_2.png");
+  background: url("../images/soundcloudicon.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -141,7 +129,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   overflow: hidden;
 }
-.v20_2 {
+.soundcloudiconframe {
   width: 45px;
   height: 42px;
   background: rgba(255,255,255,0);
