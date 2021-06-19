@@ -14,7 +14,7 @@ ul {
   margin: 0 auto;
   max-width: 1000px;
 } */
-.ruzel h1 { display: flex;
+.ruzel { display: flex;
   justify-content: center; color: blueviolet;}
 
 
