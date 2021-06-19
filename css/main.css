@@ -14,7 +14,9 @@ ul {
   margin: 0 auto;
   max-width: 1000px;
 } */
-.item h1 {color: rgb(23, 180, 55);}
+.ruzel h1 { display: flex;
+  justify-content: center; color: blueviolet;}
+
 
 .item {
   padding: 8px;
