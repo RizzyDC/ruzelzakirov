@@ -34,8 +34,8 @@ ul {
 
 }
 .container-social {
-  display: grid;
-  align-items: center;
+  display: flex;
+  justify-content: center;
            
 }
  /*
