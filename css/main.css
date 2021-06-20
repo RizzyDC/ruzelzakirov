@@ -6,24 +6,215 @@
 ul {
   padding-left: 1.5rem;
 }
+@font-face {
+  font-family: Clip;
+  src: url("https://acupoftee.github.io/fonts/Clip.ttf");
+}
+.sign {
+  display: flex;
+  justify-content: center; color: white;
 
- /*  body {
-  font-family: "Poppins", sans-serif;
-  color: #333;
-  background-color: snow;
-  margin: 0 auto;
-  max-width: 1000px;
-} */
-.ruzel { display: flex;
-  justify-content: center; color: blueviolet;}
+  background-image: radial-gradient(
+    ellipse 50% 35% at 50% 50%,
+    #bd859b,
+    transparent
+  );
+  
+  letter-spacing: 2;
+ 
+  font-family: "Clip";
+  text-transform: uppercase;
+  font-size: 6em;
+  color: #ffe6ff;
+  text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+    -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+    0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+  animation: shine 2s forwards, flicker 3s infinite;
+}
 
+@keyframes blink {
+  0%,
+  22%,
+  36%,
+  75% {
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+      -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+      0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+  }
+  28%,
+  33% {
+    color: #ff65bd;
+    text-shadow: none;
+  }
+  82%,
+  97% {
+    color: #ff2483;
+    text-shadow: none;
+  }
+}
+
+.flicker {
+  animation: shine 2s forwards, blink 3s 2s infinite;
+}
+
+.fast-flicker {
+  animation: shine 2s forwards, blink 10s 1s infinite;
+}
+
+@keyframes shine {
+  0% {
+    color: #6b1839;
+    text-shadow: none;
+  }
+  100% {
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+      -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+      0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+  }
+}
+
+@keyframes flicker {
+  from {
+    opacity: 1;
+  }
+
+  4% {
+    opacity: 0.9;
+  }
+
+  6% {
+    opacity: 0.85;
+  }
+
+  8% {
+    opacity: 0.95;
+  }
+
+  10% {
+    opacity: 0.9;
+  }
+
+  11% {
+    opacity: 0.922;
+  }
+
+  12% {
+    opacity: 0.9;
+  }
+
+  14% {
+    opacity: 0.95;
+  }
+
+  16% {
+    opacity: 0.98;
+  }
+
+  17% {
+    opacity: 0.9;
+  }
+
+  19% {
+    opacity: 0.93;
+  }
+
+  20% {
+    opacity: 0.99;
+  }
+
+  24% {
+    opacity: 1;
+  }
+
+  26% {
+    opacity: 0.94;
+  }
+
+  28% {
+    opacity: 0.98;
+  }
+
+  37% {
+    opacity: 0.93;
+  }
+
+  38% {
+    opacity: 0.5;
+  }
+
+  39% {
+    opacity: 0.96;
+  }
+
+  42% {
+    opacity: 1;
+  }
+
+  44% {
+    opacity: 0.97;
+  }
+
+  46% {
+    opacity: 0.94;
+  }
+
+  56% {
+    opacity: 0.9;
+  }
+
+  58% {
+    opacity: 0.9;
+  }
+
+  60% {
+    opacity: 0.99;
+  }
+
+  68% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0.9;
+  }
+
+  72% {
+    opacity: 0.95;
+  }
+
+  93% {
+    opacity: 0.93;
+  }
+
+  95% {
+    opacity: 0.95;
+  }
+
+  97% {
+    opacity: 0.93;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+.video { display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+    
 
 .item {
   padding: 8px;
-  background-color: rgba(255, 255, 255, 0.397);
+  background-color: rgba(211, 158, 158, 0.397);
   border: 2px solid rgb(0, 0, 0);
   border-radius: 6px;
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 2px 4px rgba(209, 45, 45, 0.25);
 }
 
 .height-50 {
@@ -41,131 +232,4 @@ ul {
   justify-content: center;
            
 }
- /*
-.soundcloud1 {
-  width: 615px;
-  height: 244px;
-  background: url("../images/soundcloud1.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 1225px;
-  left: 998px;
-  overflow: hidden;
-}
-.soundcloud2 {
-  width: 612px;
-  height: 244px;
-  background: url("../images/soundcloud2.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 1225px;
-  left: 368px;
-  overflow: hidden;
-}
-.ruzelzakirov {
-  width: 855px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 169px;
-  left: 560px;
-  font-family: Sedgwick Ave;
-  font-weight: Regular;
-  font-size: 144px;
-  opacity: 1;
-  text-align: center;
-}
-.v3_1 {
-  width: 944px;
-  height: 94px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 32px;
-  left: 515px;
-  border: 3px solid rgba(0,0,0,1);
-  overflow: hidden;
-}
-.facebook {
-  width: 45px;
-  height: 45px;
-  background: url("../images/facebook.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 54px;
-  left: 1017px;
-  overflow: hidden;
-}
-.instagram{
-  width: 45px;
-  height: 45px;
-  background: url("../images/instagram.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 54px;
-  left: 915px;
-  overflow: hidden;
-}
-.youtube {
-  width: 45px;
-  height: 45px;
-  background: url("../images/youtube.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 54px;
-  left: 813px;
-  overflow: hidden;
-}
-.bandcamp {
-  width: 45px;
-  height: 45px;
-  background: url("../images/bandcamp.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 54px;
-  left: 704px;
-  overflow: hidden;
-}
-.soundcloudicon {
-  width: 59px;
-  height: 54px;
-  background: url("../images/soundcloudicon.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 52px;
-  left: 588px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  overflow: hidden;
-}
-.soundcloudiconframe {
-  width: 45px;
-  height: 42px;
-  background: rgba(255,255,255,0);
-  opacity: 1;
-  position: absolute;
-  top: 57px;
-  left: 595px;
-  border: 3px solid rgba(0,0,0,1);
-  overflow: hidden;
-}
- */
+
