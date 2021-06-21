@@ -10,6 +10,7 @@ ul {
   font-family: Clip;
   src: url("https://acupoftee.github.io/fonts/Clip.ttf");
 }
+
 .sign {
   display: flex;
   justify-content: center; color: white;
@@ -202,7 +203,7 @@ ul {
 }
 
 
-.video { display: flex;
+.main-content { display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
