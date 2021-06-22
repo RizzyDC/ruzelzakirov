@@ -55,7 +55,6 @@ li {
 	font-size: 40px;
 	padding: 20px 20px;
 	color: rgb(255, 255, 255);
-	
 	border-radius: 20%;
 	
 transition: .5s;
@@ -63,9 +62,16 @@ transition: .5s;
 	animation-duration: 15s;
 }
 li:hover {
-	color: #cf0c57;	
-	
+	color: #cf0c57;		
 }
+ul li:hover {
+	background: #0099cc;
+	color: white;
+  }
+  
+  ul li a:hover {
+	color: white;
+  }
 
 
 
