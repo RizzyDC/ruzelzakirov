@@ -5,6 +5,12 @@ body {
 	background-size: 400% 400%;
 	animation: Gradient 15s ease infinite;
 }
+.body2 {
+	font-family: Source Sans Pro;
+	background: #282828e7;
+	background: linear-gradient(-45deg,   #23D5AB, #23A6D5,#E73C7E,#EE7752,);
+	animation: Gradient 15s ease infinite;
+}
 
 @keyframes fadeIn {
 	from {
@@ -63,6 +69,12 @@ transition: .5s;
 }
 li a { color: rgb(255, 255, 255) }
 li:hover a { color: #cf0c57; }
+ul li:hover {
+	background: white;
+	color: #cf0c57;
+  }
+  
+
 
 
 
