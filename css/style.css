@@ -1,14 +1,14 @@
 body {
 	font-family: Source Sans Pro;
 	background: #282828;
-	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-	background-size: 400% 400%;
-	animation: Gradient 15s ease infinite;
+	background: linear-gradient(-45deg, #de46e4c7, #23A6D5,#E73C7E,#EE7752);
+	background-size: 100% 100%;
+	
 }
 .body2 {
 	font-family: Source Sans Pro;
-	background: #282828e7;
-	background: linear-gradient(-45deg,   #23D5AB, #23A6D5,#E73C7E,#EE7752,);
+	background: linear-gradient(-45deg, #de46e4c7, #23A6D5,#E73C7E,#EE7752);
+	background-size: 400% 400%;
 	animation: Gradient 15s ease infinite;
 }
 
@@ -62,8 +62,7 @@ li {
 	padding: 20px 20px;
 	color: rgb(255, 255, 255);
 	border-radius: 20%;
-	
-transition: .5s;
+	transition: .50s;
 	animation-name: fadeIn;
 	animation-duration: 15s;
 }
@@ -73,6 +72,9 @@ ul li:hover {
 	background: white;
 	color: #cf0c57;
   }
+
+
+  
   
 
 
