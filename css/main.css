@@ -206,9 +206,3 @@ ul {
   height: 50vh;
 }
 
-.container1 {
-  display: flex;
-  justify-content: center;
- flex-direction: column;
- align-items:center
-}
