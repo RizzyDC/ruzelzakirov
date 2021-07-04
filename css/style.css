@@ -2,15 +2,13 @@ body {
 	font-family: Source Sans Pro;
 	background: #282828;
 	background: linear-gradient(-45deg, #de46e4c7, #23A6D5,#E73C7E,#EE7752);
-	background-size: 100% 100%;
-	
-}
-.body2 {
-	font-family: Source Sans Pro;
-	background: linear-gradient(-45deg, #de46e4c7, #23A6D5,#E73C7E,#EE7752);
 	background-size: 400% 400%;
 	animation: Gradient 15s ease infinite;
+
+	
 }
+
+
 
 @keyframes fadeIn {
 	from {
@@ -46,12 +44,6 @@ p {
     font-weight: lighter;
     font-size: 20px;
     margin-top: 0;
-}
-.media {
-	position: absolute;
-	top: 40%;
-	left: 50%;
-	transform: translate(-53%, -50%);
 }
 
 li {
