@@ -12,8 +12,8 @@ ul {
 }
 
 .sign {
-  display: flex;
-  justify-content: center; color: white;
+  
+   color: white;
 
   background-image: radial-gradient(
     ellipse 50% 35% at 50% 50%,
