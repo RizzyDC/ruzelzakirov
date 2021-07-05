@@ -3,9 +3,6 @@
   box-sizing: border-box;
 }
 
-ul {
-  padding-left: 3rem;
-}
 @font-face {
   font-family: Clip;
   src: url("https://acupoftee.github.io/fonts/Clip.ttf");
