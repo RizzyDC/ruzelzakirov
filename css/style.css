@@ -4,34 +4,19 @@ body {
 	background: linear-gradient(-45deg, #de46e4c7, #8b69f8,#E73C7E,#EE7752);
 	background-size: 400% 400%;
 	animation: Gradient 20s ease infinite;
-	
-
-	
-}
- 
-.wrapper {
+	}
+ .wrapper {
 	position: relative;
 	overflow: hidden;
 	padding-top: 56.25%;
 }
 .wrapper iframe {
-	position:absolute;
+	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 	}
-
-.box-border {
-	
-	border: 7px dashed rgba(255, 255, 255, 0.041);
-	  }
-	 
-.box-border-solid {
-		
-		border: 4px solid rgba(255, 255, 255, 0.157);
-	  }
-
 @keyframes fadeIn {
 	from {
 	  opacity: 0;
@@ -70,14 +55,15 @@ main {
 li {
 	list-style: none;
 	margin: 10px 30px;
-	display: inline-block;
+	display: flex;
+	justify-content: center;
 	font-size: 30px;
 	padding: 20px 20px;
 	color: rgb(255, 255, 255);
 	border-radius: 45%;
 	transition: .50s;
 	animation-name: fadeIn;
-	animation-duration: 15s;
+	animation-duration: 20s;
 }
 li a { color: rgb(255, 255, 255) }
 li:hover a { color: #cf0c57e8; }
