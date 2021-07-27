@@ -1,19 +1,19 @@
+html {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
 body {
 	font-family: Source Sans Pro;
 	background: #282828;
-	background: linear-gradient(-45deg, #de46e4c7, #23a5d59b,#E73C7E,#EE7752);
+	background: linear-gradient(-45deg, #de46e4c7, #8b69f8,#E73C7E,#EE7752);
 	background-size: 400% 400%;
-	animation: Gradient 15s ease infinite;
+	animation: Gradient 20s ease infinite;
+	
 
 	
 }
-.container1 {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-   }
  
-  
 .wrapper {
 	position: relative;
 	overflow: hidden;
@@ -63,13 +63,20 @@ h1 {
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
+	border: 7px dashed rgba(255, 255, 255, 0.041);
+	border-top: 0px;
+	border-bottom: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	}
-
+main {
+	border: 7px dashed rgba(255, 255, 255, 0.041);
+}
 li {
 	list-style: none;
 	margin: 10px 30px;
 	display: inline-block;
-	font-size: 40px;
+	font-size: 30px;
 	padding: 20px 20px;
 	color: rgb(255, 255, 255);
 	border-radius: 45%;
@@ -89,19 +96,23 @@ ul li:hover {
   
 nav {
     width: 100%;
-}
+	
+	}
 
 nav ul {
     display: flex;
-    flex-direction: row;
-    margin: 0;
-    padding: 20;
+    justify-content: space-between;
+	flex-wrap: wrap;
+	
+	border: 7px dashed rgba(255, 255, 255, 0.041);
 }
 
 nav ul li {
     list-style: none;
-    flex-grow: 4;
     text-align: center;
+	display: flex;
+	flex-basis: 11.111111%;
+
 }
 
 nav ul li a {

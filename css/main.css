@@ -8,18 +8,9 @@
   src: url("https://acupoftee.github.io/fonts/Clip.ttf");
 }
 
-.sign {
-  
-   color: white;
-
-  background-image: radial-gradient(
-    ellipse 50% 35% at 50% 50%,
-    #bd859b,
-    transparent
-  );
-  
+.ruzel-title {
+   color: rgb(175, 127, 127);
   letter-spacing: 2;
- 
   font-family: "Clip";
   text-transform: uppercase;
   font-size: 6em;
@@ -199,7 +190,5 @@
   }
 }
 
-.height-50 {
-  height: 50vh;
-}
+
 
