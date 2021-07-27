@@ -60,12 +60,12 @@ li {
 	font-size: 30px;
 	padding: 20px 20px;
 	color: rgb(255, 255, 255);
-	border-radius: 45%;
+	border-radius: 10px;
 	transition: .50s;
 	animation-name: fadeIn;
-	animation-duration: 20s;
+	animation-duration: 5s;
 }
-li a { color: rgb(255, 255, 255) }
+li a { color: rgb(255, 255, 255)}
 li:hover a { color: #cf0c57e8; }
 ul {
 	padding-inline-start: 0px;
