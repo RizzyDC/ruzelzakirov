@@ -4,6 +4,7 @@ body {
 	background: linear-gradient(-45deg, #de46e4c7, #8b69f8,#E73C7E,#EE7752);
 	background-size: 400% 400%;
 	animation: Gradient 20s ease infinite;
+
 	}
 
 @keyframes fadeIn {
@@ -29,8 +30,20 @@ body {
 header {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
-
+iframe{
+	margin-left: calc(50% - 306px);
+	margin-left: -webkit-calc(50% - 306px);
+	margin-left: -moz-calc(50% - 306px);
+  }
+  
+  @media only screen and (max-width: 612px) {
+	iframe{
+	  margin-left: 0;
+	  width:100%;              
+	}
+  }
 span:nth-child(3) {
 align-self: flex-end;
 }
