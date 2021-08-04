@@ -28,7 +28,7 @@ body {
 
 header {
 	display: flex;
-
+	justify-content: center;
 }
 
 span:nth-child(3) {
