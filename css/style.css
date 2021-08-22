@@ -53,7 +53,7 @@ li {
 	animation-duration: 5s;
 }
 li a { color: rgb(255, 255, 255)}
-li:hover a { color: #cf0c57e8; }
+li:hover a { color: #000000; }
 ul {
 	padding-inline-start: 0px;
 	}
