@@ -13,6 +13,9 @@ header {
 	justify-content: center;
     flex-wrap: wrap;
 }
+.bg-img {
+	background-image: url('ruzel.png');
+  }
 span:nth-child(3) {
 align-self: flex-end;
 }
