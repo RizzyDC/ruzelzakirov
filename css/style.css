@@ -15,7 +15,8 @@ header {
 }
 .bg-img {
 	background-image: url('ruzel.png');
-  }
+background-repeat:no-repeat;
+ }
 span:nth-child(3) {
 align-self: flex-end;
 }
