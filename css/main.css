@@ -3,13 +3,17 @@
   box-sizing: border-box;
 }
 @font-face {
-  font-family: Clip;
-  src: url("https://acupoftee.github.io/fonts/Clip.ttf");
+  font-family: 'clipbold';
+  src: url('clip_regular-webfont.woff2') format('woff2'),
+       url('clip_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 .ruzel-title {
   color: rgb(175, 127, 127);
   letter-spacing: 3;
-  font-family: "Clip";
+  font-family: "clipbold";
   text-transform: uppercase;
   font-weight: lighter;
   font-size: 13em; 

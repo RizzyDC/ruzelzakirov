@@ -50,11 +50,11 @@ li {
 li a { color: rgb(255, 255, 255)}
 li:hover a { color: #000000; }
 ul {
-	padding-inline-start: 0px;
+	padding: 10px;
 	}
-ul li:hover {
+ul li:hover a {
 	background: white;
-	color: #cf0c57;
+	padding: 100px;
   }
 nav {
     width: 100%;
