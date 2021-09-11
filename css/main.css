@@ -18,7 +18,6 @@
   font-weight: lighter;
   font-size: 7em; 
   font-size: 10vw;
-  
   color: #ffe6ff;
   text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
     -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
@@ -30,7 +29,7 @@
 	border: 7px dashed rgba(255, 255, 255, 0.041);
 	border-top: 0px;
 	border-bottom: 0px;
-	padding-top: 0px;
+	padding-top: 50px;
 	padding-bottom: 0px;
   transition: 5s;
 	animation-name: fadeIn;
