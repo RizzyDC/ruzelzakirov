@@ -14,8 +14,7 @@ header {
 }
 
 .bg-img {
-  display: flex;
-  justify-content: center;
+  
   background-image: url("ruzel.png");
   background-repeat: no-repeat;
   background-position-x: 50%;
@@ -77,7 +76,9 @@ ul li:hover a {
   padding-left: 20%;
 }
 nav {
-  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex: 0 0 50%;
 }
 nav ul {
   display: flex;
