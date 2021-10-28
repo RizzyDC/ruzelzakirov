@@ -1,93 +1,102 @@
+html {
+  padding-left: 1%;
+  padding-right: 1%;
+}
 body {
-	font-family: Source Sans Pro;
-	background: #282828;
-	background: linear-gradient(-45deg, #de46e4c7, #23A6D5,#E73C7E,#EE7752);
-	background-size: 100% 100%;
-	
+  font-family: sans-serif;
+  background: #000000;
 }
-.body2 {
-	font-family: Source Sans Pro;
-	background: linear-gradient(-45deg, #de46e4c7, #23A6D5,#E73C7E,#EE7752);
-	background-size: 400% 400%;
-	animation: Gradient 15s ease infinite;
+header {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
 }
-
-@keyframes fadeIn {
-	from {
-	  opacity: 0;
-	}
-	to {
-	  opacity: 1;
-	}
+h2 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
   }
-@-webkit-keyframes Gradient {
-	0% {
-	   background-position: 0% 50%
-	}
-	50% {
-	background-position: 100% 50%
-	}
-	100% {
-	background-position: 0% 50%
-	}
-}
-h1 {
-    font-weight: lighter;
-    font-size: 70px;
-    color: #fff;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
-	}
-p {
-    color: #fff;
-    text-align: center;
-    font-family: Source Sans Pro;
-    font-weight: lighter;
-    font-size: 20px;
-    margin-top: 0;
-}
-.media {
-	position: absolute;
-	top: 40%;
-	left: 50%;
-	transform: translate(-53%, -50%);
-}
+.bg-img {
+  display: flex;
+  justify-content: center;
 
+  background-image: url("ruzel.png");
+  background-repeat: no-repeat;
+  background-position-x: 42%;
+  background-position-y: 50%;
+  background-size: 40%;
+}
+span:nth-child(3) {
+  align-self: flex-end;
+}
+main {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
 li {
-	list-style: none;
-	margin: 10px 30px;
-	display: inline-block;
-	font-size: 40px;
-	padding: 20px 20px;
-	color: rgb(255, 255, 255);
-	border-radius: 20%;
-	transition: .50s;
-	animation-name: fadeIn;
-	animation-duration: 15s;
+  margin: 10px 30px;
+  font-size: 40px;
+  padding: 20px 20px;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  transition: 0.5s;
+  animation-name: fadeIn;
+  animation-duration: 5s;
 }
-li a { color: rgb(255, 255, 255) }
-li:hover a { color: #cf0c57; }
-ul li:hover {
-	background: white;
-	color: #cf0c57;
-  }
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+li a {
+  color: rgb(255, 255, 255);
+}
+li:hover a {
+  color: #000000;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 0;
+  margin-block-end: 0%;
+  margin-inline-start: 0%;
+  margin-inline-end: 5%;
+  padding-inline-start: 0%;
+}
+ul li a {
+  background: #00000000;
+  padding-top: 5%;
+  padding-right: 20%;
+  padding-bottom: 5%;
+  padding-left: 20%;
+}
+ul li:hover a {
+  background: white;
+  padding-top: 5%;
+  padding-right: 20%;
+  padding-bottom: 5%;
+  padding-left: 20%;
+  border-radius: 20%;
+}
+nav {
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+nav ul li {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-basis: 11.111111%;
+}
+nav ul li a {
+  display: block;
+}
